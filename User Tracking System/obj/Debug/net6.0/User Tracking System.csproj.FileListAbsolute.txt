@@ -1,0 +1,35 @@
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\appsettings.json
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\User Tracking System.exe
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\User Tracking System.deps.json
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\User Tracking System.runtimeconfig.json
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\User Tracking System.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\ref\User Tracking System.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\User Tracking System.pdb
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Humanizer.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Npgsql.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Domain.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\bin\Debug\net6.0\Domain.pdb
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.csproj.AssemblyReference.cache
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.AssemblyInfoInputs.cache
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.AssemblyInfo.cs
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.csproj.CoreCompileInputs.cache
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\staticwebassets\User Tracking System.StaticWebAssets.Manifest.cache
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\scopedcss\bundle\User Tracking System.styles.css
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.csproj.CopyComplete
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\ref\User Tracking System.dll
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.pdb
+C:\Users\galamshar\source\repos\User Tracking System\User Tracking System\obj\Debug\net6.0\User Tracking System.genruntimeconfig.cache
