@@ -31,7 +31,7 @@ namespace UserTrackingSystem.WebApi.Controllers
                 RegistrationDate = userDTO.RegisterDate,
                 LastActivity = userDTO.LastActivity
             };
-            _userService.Add(user);
+            await _userService.AddAsync(user);
             return NoContent();
         }
 

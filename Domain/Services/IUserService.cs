@@ -10,6 +10,6 @@ namespace UserTrackingSystem.Domain.Services
     public interface IUserService
     {
         public IEnumerable<User> GetAll();
-        public void Add(User user);
+        public Task AddAsync(User user);
     }
 }

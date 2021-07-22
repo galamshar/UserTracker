@@ -19,9 +19,9 @@ namespace UserTrackingSystem.Infrastructure.Services
             _userRepository = userRepository;
         }
 
-        public void Add(User user)
+        public async Task AddAsync(User user)
         {
-            _userRepository.AddUser(user);
+            await _userRepository.AddUser(user);
         }
 
         public IEnumerable<User> GetAll()

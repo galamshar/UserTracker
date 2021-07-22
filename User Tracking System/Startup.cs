@@ -24,7 +24,13 @@ namespace UserTrackingSystem.WebApi
 
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader());
+            });
             services.AddControllers();
             services.AddDbContext<TrackingContext>(options => 
             {
@@ -48,7 +54,7 @@ namespace UserTrackingSystem.WebApi
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors("CorsPolicy");
             app.UseRouting();
 
             app.UseAuthorization();
