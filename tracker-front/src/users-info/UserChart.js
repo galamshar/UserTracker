@@ -1,5 +1,6 @@
 ﻿import React, { props, useEffect, useState } from "react";
 import Chart from "react-google-charts";
+import tooltip from "react-google-charts"
 
 export default function UserChart(props) {
     const [items, setItems] = useState([]);
@@ -7,10 +8,10 @@ export default function UserChart(props) {
     useEffect(() => {
         setItems(props.data)
         let array = [];
-        array.push(["Ids","Lifetime"])
+        array.push(["Ids", "Lifetime"])
         items.map((item) => {
             let lifetimes = (item.lastActivity.getTime() - item.registrationDate.getTime()) / (1000 * 3600 * 24)
-            array.push([item.id,lifetimes])
+            array.push([item.id, lifetimes])
         })
         setData(array)
     })
@@ -30,7 +31,9 @@ export default function UserChart(props) {
                 },
                 vAxis: {
                     title: 'Ids',
+                    format: '0',
                 },
+                tooltip: { isHtml: true, trigger: "visible" }
             }}
             // For tests
             rootProps={{ 'data-testid': '1' }}

@@ -24,7 +24,8 @@ namespace UserTrackingSystem.WebApi.Controllers
         {
             if (userDTO.RegisterDate > userDTO.LastActivity)
             {
-                return BadRequest("Invalid Dates");
+                var result = new JsonResult(new { message = "Invalid Dates!" });
+                return BadRequest(result.Value);
             }
             var user = new User()
             {

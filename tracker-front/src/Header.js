@@ -28,7 +28,7 @@ export default function Header() {
 
   return (
     <header>
-      <AppBar className={header}>{displayDesktop()}</AppBar>
+      <AppBar position="relative" className={header}>{displayDesktop()}</AppBar>
     </header>
   );
 }

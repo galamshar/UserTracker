@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System;
 using UserTrackingSystem.Domain.Repositories;
 using UserTrackingSystem.Domain.Services;
 using UserTrackingSystem.Infrastructure.Data;
@@ -32,16 +33,18 @@ namespace UserTrackingSystem.WebApi
                     .AllowAnyHeader());
             });
             services.AddControllers();
-            services.AddDbContext<TrackingContext>(options => 
+            services.AddDbContext<TrackingContext>(options =>
             {
-                options.UseNpgsql(Configuration.GetConnectionString("Default"));
+                options.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
+            services.BuildServiceProvider().GetService<TrackingContext>().Database.Migrate();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "User_Tracking_System", Version = "v1" });
             });
+            services.AddApplicationInsightsTelemetry(Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

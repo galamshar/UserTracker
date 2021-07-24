@@ -2,7 +2,6 @@ C:\Users\galamshar\source\repos\User Tracking System\Domain\bin\Debug\net6.0\Dom
 C:\Users\galamshar\source\repos\User Tracking System\Domain\bin\Debug\net6.0\Domain.dll
 C:\Users\galamshar\source\repos\User Tracking System\Domain\bin\Debug\net6.0\ref\Domain.dll
 C:\Users\galamshar\source\repos\User Tracking System\Domain\bin\Debug\net6.0\Domain.pdb
-C:\Users\galamshar\source\repos\User Tracking System\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
 C:\Users\galamshar\source\repos\User Tracking System\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\galamshar\source\repos\User Tracking System\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
 C:\Users\galamshar\source\repos\User Tracking System\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
