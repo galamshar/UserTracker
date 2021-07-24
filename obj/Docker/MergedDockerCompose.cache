@@ -1,0 +1,25 @@
+services:
+  trackerfront:
+    build:
+      context: C:\Users\galamshar\source\repos\User Tracking System
+      dockerfile: tracker-front/Dockerfile
+    environment:
+      NODE_ENV: production
+    image: trackerfront
+    ports:
+    - published: 3000
+      target: 3000
+  webapi:
+    build:
+      context: C:\Users\galamshar\source\repos\User Tracking System
+      dockerfile: User Tracking System/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: webapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\galamshar\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+version: '3.4'

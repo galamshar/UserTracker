@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-07-23T17:17:12.9770563Z"
+    },
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2021-07-24T08:25:00.1783796Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "fd82010b-4f49-4d9e-ba21-c8d1f0332781"
+    },
+    "appInsights1.resourceGroupName": {
+      "Name": "appInsights1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "appsvc_windows_centralus_basic"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "WebApi20210723222911ResourceGroup"
+    },
+    "appInsights1.subscriptionId": {
+      "Name": "appInsights1.subscriptionId",
+      "Type": "subscription",
+      "Value": "fd82010b-4f49-4d9e-ba21-c8d1f0332781"
+    }
+  }
+}
